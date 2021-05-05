@@ -1,6 +1,6 @@
 import { Controller, Post, Body, HttpCode, HttpException,HttpStatus } from '@nestjs/common';
 import { JwtService } from '@nestjs/jwt';
-import { IUser, ITokenPayload } from '../interfaces/interface';
+import { ITokenPayload } from '../interfaces/interface';
 import { UserService } from './user.service';
 import {
     ApiTags,
